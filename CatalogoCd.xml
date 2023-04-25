@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="file:/D:/CFGS%20DAW/Lenguaje%20de%20marcas/VisualStudioCode/LenguajeDeMarcas/StyleCd.css"?>
+
+<!DOCTYPE catalogo [
+  <!ELEMENT catalogo (cd+)>
+  <!ELEMENT cd (titulo, artista, pais, compañia, precio, fechaPublicacion, estiloMusical?, ventas?)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT artista (#PCDATA)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT compañia (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+  <!ELEMENT fechaPublicacion (#PCDATA)>
+  <!ELEMENT estiloMusical (#PCDATA)>
+  <!ELEMENT ventas (#PCDATA)>
+]>
+
+<catalogo>
+  <cd>
+    <titulo>7000 kilos</titulo>
+    <artista>Tabletom </artista>
+    <pais>España</pais>
+    <compañia>Nuevos Medios S.A.</compañia>
+    <precio>10.99</precio>
+    <fechaPublicacion>2002</fechaPublicacion>
+    <estiloMusical>Jazz, Rock, Pop</estiloMusical>
+    <ventas>100.000.000.000 de copias</ventas>
+  </cd>
+  <cd>
+    <titulo>Agila</titulo>
+    <artista>Extremoduro</artista>
+    <pais>España</pais>
+    <compañia>DRO</compañia>
+    <precio>12.99</precio>
+    <fechaPublicacion>1996</fechaPublicacion>
+    <estiloMusical>Hard Rock</estiloMusical>
+    <ventas>100.000.000.000 de copias</ventas>
+  </cd>
+  <cd>
+    <titulo>La parte chunga</titulo>
+    <artista>Tabletom</artista>
+    <pais>España</pais>
+    <compañia>Nuevos Medios S.A.</compañia>
+    <precio>8.99</precio>
+    <fechaPublicacion>1998</fechaPublicacion>
+    <estiloMusical>Jazz, Rock, Pop</estiloMusical>
+    <ventas>100.000.000.000 de copias</ventas>
+  </cd>
+    <cd>
+    <titulo>¿Donde estan mis amigos?</titulo>
+    <artista>Extremoduro</artista>
+    <pais>España</pais>
+    <compañia>Estudios BOX</compañia>
+    <precio>12.99</precio>
+    <fechaPublicacion>1993</fechaPublicacion>
+    <estiloMusical>Hard Rock</estiloMusical>
+    <ventas>100.000.000.000 de copias</ventas>
+  </cd>
+</catalogo>

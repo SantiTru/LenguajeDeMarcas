@@ -1,0 +1,52 @@
+/*Utiliza ahora CSS y aplica a los elementos una propiedad de (1 obligatoria de cada una de estas, al menos):
+ Formato de Texto. 
+ Formato de Fuente. 
+ Formato de fondo. 
+ Formato de listas o de posicionamiento. 
+ Formato de tablas o bordes.
+ */
+
+ 
+catalogo {
+  background-color: #ebe6e6;
+  text-align: center;
+  padding-bottom: 20px;
+  border-color: #9212a8;
+}px
+
+titulo {
+  font-family: Arial, sans-serif;
+  color: #444;
+  border-color: #9212a8;
+}
+
+cd {
+  border: 1px solid #9212a8;
+  padding: 10px;
+  border-color: #9212a8;
+}
+
+artista {
+  font-style: italic;
+  border-color: #9212a8;
+}
+
+estiloMusical {
+  text-transform: uppercase;
+  border-color: #9212a8;
+}
+
+ventas {
+  color: rgb(194, 83, 15);
+  border-color: #9212a8;
+}
+
+pais {
+  border: 1px dashed #e90b0b;
+  border-color: #9212a8;
+}
+
+precio {
+  background-color: #159271;
+  border-color: #9212a8;
+}
