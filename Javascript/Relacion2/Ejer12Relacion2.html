@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 12</title>
+  <script>
+    class ficha{
+      constructor()
+      {
+        this.alumno ={
+                      nombre: "Caterina",
+                      edad: 18
+                      };
+        verNombre() 
+        {
+          return this.alumno.nombre;
+        }
+        verEdad() 
+        {
+          let resultado = this.alumno.edad;
+          return resultado;
+        }
+      }
+    }
+    function programa()
+    {
+      var obj = new ficha();
+      document.writeln(`El nombre es ${obj.verNombre()}<br>`);
+      document.writeln(`La edad es ${obj.verEdad()}<br>`);
+    }
+  </script>
+</head>
+<body>
+  <h3>Clase programa</h3>
+  <input type="button" onclick="programa()" value="Pulsa Aquí">
+</body>
+</html>

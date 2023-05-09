@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 11</title>
+  <script>
+    function Calcula(numero)
+    {
+      let calculo = numero * numero;
+      document.write(`<p> Resultado = ${calculo} </p>`);
+    }
+  </script>
+</head>
+<body>
+  <input type="button" onclick="Calcula(3)" value="Un Click">
+  <input type="button" onDblclick="Calcula(9)" value="Dos Clicks">
+  <p><br>Cada botón con su propio evento: devuelve el cuadrado de 3 o 9 en un click o dos...</p>
+</body>
+</html>
