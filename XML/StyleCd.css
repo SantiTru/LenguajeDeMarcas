@@ -7,46 +7,77 @@
  */
 
  
+/* Estilos para el catálogo de CDs */
 catalogo {
-  background-color: #ebe6e6;
-  text-align: center;
-  padding-bottom: 20px;
-  border-color: #9212a8;
-}px
-
-titulo {
-  font-family: Arial, sans-serif;
-  color: #444;
-  border-color: #9212a8;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 cd {
-  border: 1px solid #9212a8;
+  width: 200px;
   padding: 10px;
-  border-color: #9212a8;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para los elementos dentro de cada CD */
+titulo {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 artista {
+  margin-bottom: 5px;
   font-style: italic;
-  border-color: #9212a8;
 }
 
-estiloMusical {
-  text-transform: uppercase;
-  border-color: #9212a8;
-}
-
+pais,
+compañia,
+precio,
+fechaPublicacion,
+estiloMusical,
 ventas {
-  color: rgb(194, 83, 15);
-  border-color: #9212a8;
+  font-style: italic;
+  margin-bottom: 3px;
 }
 
-pais {
-  border: 1px dashed #e90b0b;
-  border-color: #9212a8;
+/* Estilo adicional para el elemento ventas */
+ventas {
+  color: red;
 }
 
+/* Estilo adicional para el elemento precio */
 precio {
-  background-color: #159271;
-  border-color: #9212a8;
+  color: green;
 }
+
+/* Estilo de fuente */
+cd {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo de fondo */
+cd:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo de listas */
+cd ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Estilo de tablas y bordes */
+cd table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+cd th,
+cd td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+

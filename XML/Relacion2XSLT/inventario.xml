@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="ejercicio1_1.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file:/D:/CFGS%20DAW/Lenguaje%20de%20marcas/VisualStudioCode/LenguajeDeMarcas/XML/Relacion2XSLT/Ejer2.xsl"?>
 <inventario>
  <producto codigo="P1">
  <peso unidad="kg">10</peso>
