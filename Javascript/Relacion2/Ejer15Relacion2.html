@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Entrada de Datos</title>
+<script>
+function calcula() {
+  let numero = document.fdatos.entrada.value;
+  let dato = document.getElementById("flista");
+  let valor = dato.options[dato.selectedIndex].value;
+  let resultado = numero * valor;
+  document.getElementById("fsalida").innerHTML = resultado;
+}
+
+function divide() {
+  let numero = document.ddatos.entrada.value;
+  let dato = document.getElementById("dlista");
+  let valor = dato.options[dato.selectedIndex].value;
+  let resultado = numero / valor;
+  document.getElementById("dsalida").innerHTML = resultado;
+}
+</script>
+</head>
+<body>
+<form name="fdatos">
+  Multiplica un número: <input type="text" size="11" name="entrada"/>
+  <b> X </b>
+  <select id="flista" onchange="calcula()">
+    <option value="0" selected>0</option>
+    <option value="1">uno</option>
+    <option value="2">dos</option>
+    <option value="3">tres</option>
+    <option value="4">cuatro</option>
+    <option value="5">cinco</option>
+    <option value="6">seis</option>
+    <option value="7">siete</option>
+    <option value="8">ocho</option>
+    <option value="9">nueve</option>
+    <option value="10">diez</option>
+  </select>
+</form>
+<b>Resultado:</b> <div id="fsalida"></div>
+<form name="ddatos">
+  Divide un número: <input type="text" size="11" name="entrada"/>
+  <b>:</b>
+  <select id="dlista" onchange="divide()">
+    <option value="0" selected>0</option>
+    <option value="1">uno</option>
+    <option value="2">dos</option>
+    <option value="3">tres</option>
+    <option value="4">cuatro</option>
+    <option value="5">cinco</option>
+    <option value="6">seis</option>
+    <option value="7">siete</option>
+    <option value="8">ocho</option>
+    <option value="9">nueve</option>
+    <option value="10">diez</option>
+  </select>
+</form>
+<b>Resultado:</b> <div id="dsalida"></div>
+</body>
+</html>
