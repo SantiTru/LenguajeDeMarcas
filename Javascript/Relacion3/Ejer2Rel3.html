@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario</title>
+  <script>
+    var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]; // podemos poner tanto let como var para definir la variable
+    document.write("<h2> Días de la semana </h2>");
+    final = (dias.length -1);
+    for (var i=final; i>1; i=i-2)
+      document.write(`${dias[i]}<br>`);
+  </script>
+</head>
+<body>
+  <div><h1>Calendario</h1></div>
+</body>
+</html>
